@@ -1,0 +1,94 @@
+# =========================
+# Environment
+# =========================
+
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+ENV/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+*.egg-info/
+dist/
+build/
+
+
+# =========================
+# FastAPI / Uvicorn
+# =========================
+
+*.log
+
+
+# =========================
+# Node
+# =========================
+
+node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# =========================
+# Next.js
+# =========================
+
+.next/
+out/
+
+.vercel/
+
+
+# =========================
+# TypeScript
+# =========================
+
+*.tsbuildinfo
+
+
+# =========================
+# IDE
+# =========================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+
+*.swp
+*.swo
+
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# Local files
+# =========================
+
+*.local
